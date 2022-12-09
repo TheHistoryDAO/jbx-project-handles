@@ -9,9 +9,9 @@ import '@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBProjects.sol';
 import '../JBProjectHandles.sol';
 
 contract DeployGoerli is Test {
-  IJBOperatorStore _operatorStore = IJBOperatorStore(0x99dB6b517683237dE9C494bbd17861f3608F3585);
-  IJBProjects _projects = IJBProjects(0x21263a042aFE4bAE34F08Bb318056C181bD96D3b);
-  IJBProjectHandles _oldHandle = IJBProjectHandles(0x41126eC99F8A989fEB503ac7bB4c5e5D40E06FA4);
+  IJBOperatorStore _operatorStore = IJBOperatorStore(0x739d23f90113d653c0062af93B52fa0BA63435E8);
+  IJBProjects _projects = IJBProjects(0xCB88FF0B82b6E2624c13272F89195BFd15a64ede);
+  IJBProjectHandles _oldHandle = IJBProjectHandles(0xf66a27443776FCd29849b090d6fE1F0B87066835);
 
 
   JBProjectHandles jbProjectHandles;
