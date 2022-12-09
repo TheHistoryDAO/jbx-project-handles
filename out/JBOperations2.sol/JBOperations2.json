@@ -15,22 +15,22 @@
     }
   ],
   "bytecode": {
-    "object": "0x6087610038600b82828239805160001a607314602b57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe730000000000000000000000000000000000000000301460806040526004361060335760003560e01c806333c658f1146038575b600080fd5b603f601381565b60405190815260200160405180910390f3fea2646970667358221220145b3af193c5d5e63850843110fb7530b7d26223cfbba3927a920404b63e36c264736f6c63430008100033",
+    "object": "0x6087610038600b82828239805160001a607314602b57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe730000000000000000000000000000000000000000301460806040526004361060335760003560e01c806333c658f1146038575b600080fd5b603f601381565b60405190815260200160405180910390f3fea2646970667358221220d970faa4c312d021192f9562debccdd2710ea99fc9899f3506a809ea340636b364736f6c63430008110033",
     "sourceMap": "58:74:2:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;58:74:2;;;;;;;;;;;;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x730000000000000000000000000000000000000000301460806040526004361060335760003560e01c806333c658f1146038575b600080fd5b603f601381565b60405190815260200160405180910390f3fea2646970667358221220145b3af193c5d5e63850843110fb7530b7d26223cfbba3927a920404b63e36c264736f6c63430008100033",
-    "sourceMap": "58:74:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;84:45;;127:2;84:45;;;;;168:25:43;;;156:2;141:18;84:45:2;;;;;;",
+    "object": "0x730000000000000000000000000000000000000000301460806040526004361060335760003560e01c806333c658f1146038575b600080fd5b603f601381565b60405190815260200160405180910390f3fea2646970667358221220d970faa4c312d021192f9562debccdd2710ea99fc9899f3506a809ea340636b364736f6c63430008110033",
+    "sourceMap": "58:74:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;84:45;;127:2;84:45;;;;;168:25:44;;;156:2;141:18;84:45:2;;;;;;",
     "linkReferences": {}
   },
   "methodIdentifiers": {
     "SET_ENS_NAME_FOR()": "33c658f1"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.16+commit.07a7930e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"SET_ENS_NAME_FOR\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/libraries/JBOperations2.sol\":\"JBOperations2\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@contracts/=contracts/\",\":@ensdomains/=node_modules/@ensdomains/\",\":@jbx-protocol/=node_modules/@jbx-protocol/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"contracts/libraries/JBOperations2.sol\":{\"keccak256\":\"0x6b770b1f4e86a20c22f3f98bcd905c8004995156106a5a5c5af6020344738b29\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ee28ebe94a395193df475997da33ada44ab540429d76a0889b384deafb35e6c1\",\"dweb:/ipfs/QmNUNEaCo29kfEDHsStXyViyRhs3C6aQtMPNi3wgyGcjHg\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"SET_ENS_NAME_FOR\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/libraries/JBOperations2.sol\":\"JBOperations2\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@contracts/=contracts/\",\":@ensdomains/=node_modules/@ensdomains/\",\":@jbx-protocol/=node_modules/@jbx-protocol/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"contracts/libraries/JBOperations2.sol\":{\"keccak256\":\"0x6b770b1f4e86a20c22f3f98bcd905c8004995156106a5a5c5af6020344738b29\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ee28ebe94a395193df475997da33ada44ab540429d76a0889b384deafb35e6c1\",\"dweb:/ipfs/QmNUNEaCo29kfEDHsStXyViyRhs3C6aQtMPNi3wgyGcjHg\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
-      "version": "0.8.16+commit.07a7930e"
+      "version": "0.8.17+commit.8df45f5f"
     },
     "language": "Solidity",
     "output": {
@@ -95,19 +95,20 @@
   },
   "ast": {
     "absolutePath": "contracts/libraries/JBOperations2.sol",
-    "id": 393,
+    "id": 429,
     "exportedSymbols": {
       "JBOperations2": [
-        392
+        428
       ]
     },
     "nodeType": "SourceUnit",
     "src": "32:101:2",
     "nodes": [
       {
-        "id": 388,
+        "id": 424,
         "nodeType": "PragmaDirective",
         "src": "32:24:2",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -116,20 +117,21 @@
         ]
       },
       {
-        "id": 392,
+        "id": 428,
         "nodeType": "ContractDefinition",
         "src": "58:74:2",
         "nodes": [
           {
-            "id": 391,
+            "id": 427,
             "nodeType": "VariableDeclaration",
             "src": "84:45:2",
+            "nodes": [],
             "constant": true,
             "functionSelector": "33c658f1",
             "mutability": "constant",
             "name": "SET_ENS_NAME_FOR",
             "nameLocation": "108:16:2",
-            "scope": 392,
+            "scope": 428,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -137,7 +139,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 389,
+              "id": 425,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "84:7:2",
@@ -148,7 +150,7 @@
             },
             "value": {
               "hexValue": "3139",
-              "id": 390,
+              "id": 426,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -172,11 +174,11 @@
         "contractKind": "library",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          392
+          428
         ],
         "name": "JBOperations2",
         "nameLocation": "66:13:2",
-        "scope": 393,
+        "scope": 429,
         "usedErrors": []
       }
     ],

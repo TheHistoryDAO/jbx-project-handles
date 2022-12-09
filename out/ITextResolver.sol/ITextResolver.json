@@ -63,10 +63,10 @@
   "methodIdentifiers": {
     "text(bytes32,string)": "59d1d43c"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.16+commit.07a7930e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"string\",\"name\":\"indexedKey\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"}],\"name\":\"TextChanged\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"}],\"name\":\"text\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"text(bytes32,string)\":{\"params\":{\"key\":\"The text data key to query.\",\"node\":\"The ENS node to query.\"},\"returns\":{\"_0\":\"The associated text data.\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"text(bytes32,string)\":{\"notice\":\"Returns the text data associated with an ENS node and key.\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"node_modules/@ensdomains/ens-contracts/contracts/resolvers/profiles/ITextResolver.sol\":\"ITextResolver\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@contracts/=contracts/\",\":@ensdomains/=node_modules/@ensdomains/\",\":@jbx-protocol/=node_modules/@jbx-protocol/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"node_modules/@ensdomains/ens-contracts/contracts/resolvers/profiles/ITextResolver.sol\":{\"keccak256\":\"0x36a6602f2d76f373c5e1dcded0c87e1d3ab5180dbbbea7aa2a8d0e9a36273e38\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3cb3b5192f851b6a6902592f33ad8258e199a1b97e7cff5ac8acb2b313d4d0ba\",\"dweb:/ipfs/QmcyuseXSxgoL5PHAmuVy4N2d19MeenreuXfHG3XZ4NRbU\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"string\",\"name\":\"indexedKey\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"}],\"name\":\"TextChanged\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"node\",\"type\":\"bytes32\"},{\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"}],\"name\":\"text\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"text(bytes32,string)\":{\"params\":{\"key\":\"The text data key to query.\",\"node\":\"The ENS node to query.\"},\"returns\":{\"_0\":\"The associated text data.\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"text(bytes32,string)\":{\"notice\":\"Returns the text data associated with an ENS node and key.\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"node_modules/@ensdomains/ens-contracts/contracts/resolvers/profiles/ITextResolver.sol\":\"ITextResolver\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@contracts/=contracts/\",\":@ensdomains/=node_modules/@ensdomains/\",\":@jbx-protocol/=node_modules/@jbx-protocol/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"node_modules/@ensdomains/ens-contracts/contracts/resolvers/profiles/ITextResolver.sol\":{\"keccak256\":\"0x36a6602f2d76f373c5e1dcded0c87e1d3ab5180dbbbea7aa2a8d0e9a36273e38\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3cb3b5192f851b6a6902592f33ad8258e199a1b97e7cff5ac8acb2b313d4d0ba\",\"dweb:/ipfs/QmcyuseXSxgoL5PHAmuVy4N2d19MeenreuXfHG3XZ4NRbU\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
-      "version": "0.8.16+commit.07a7930e"
+      "version": "0.8.17+commit.8df45f5f"
     },
     "language": "Solidity",
     "output": {
@@ -181,19 +181,20 @@
   },
   "ast": {
     "absolutePath": "node_modules/@ensdomains/ens-contracts/contracts/resolvers/profiles/ITextResolver.sol",
-    "id": 23708,
+    "id": 23880,
     "exportedSymbols": {
       "ITextResolver": [
-        23707
+        23879
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:442:11",
+    "src": "32:442:12",
     "nodes": [
       {
-        "id": 23688,
+        "id": 23860,
         "nodeType": "PragmaDirective",
-        "src": "32:24:11",
+        "src": "32:24:12",
+        "nodes": [],
         "literals": [
           "solidity",
           ">=",
@@ -202,32 +203,33 @@
         ]
       },
       {
-        "id": 23707,
+        "id": 23879,
         "nodeType": "ContractDefinition",
-        "src": "58:415:11",
+        "src": "58:415:12",
         "nodes": [
           {
-            "id": 23696,
+            "id": 23868,
             "nodeType": "EventDefinition",
-            "src": "88:79:11",
+            "src": "88:79:12",
+            "nodes": [],
             "anonymous": false,
             "eventSelector": "d8c9334b1a9c2f9da342a0a2b32629c1a229b6445dad78947f674b44444a7550",
             "name": "TextChanged",
-            "nameLocation": "94:11:11",
+            "nameLocation": "94:11:12",
             "parameters": {
-              "id": 23695,
+              "id": 23867,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 23690,
+                  "id": 23862,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "node",
-                  "nameLocation": "122:4:11",
+                  "nameLocation": "122:4:12",
                   "nodeType": "VariableDeclaration",
-                  "scope": 23696,
-                  "src": "106:20:11",
+                  "scope": 23868,
+                  "src": "106:20:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -235,10 +237,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 23689,
+                    "id": 23861,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "106:7:11",
+                    "src": "106:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -248,14 +250,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 23692,
+                  "id": 23864,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "indexedKey",
-                  "nameLocation": "143:10:11",
+                  "nameLocation": "143:10:12",
                   "nodeType": "VariableDeclaration",
-                  "scope": 23696,
-                  "src": "128:25:11",
+                  "scope": 23868,
+                  "src": "128:25:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -263,10 +265,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 23691,
+                    "id": 23863,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "128:6:11",
+                    "src": "128:6:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -276,14 +278,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 23694,
+                  "id": 23866,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "key",
-                  "nameLocation": "162:3:11",
+                  "nameLocation": "162:3:12",
                   "nodeType": "VariableDeclaration",
-                  "scope": 23696,
-                  "src": "155:10:11",
+                  "scope": 23868,
+                  "src": "155:10:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -291,10 +293,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 23693,
+                    "id": 23865,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "155:6:11",
+                    "src": "155:6:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -303,17 +305,18 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "105:61:11"
+              "src": "105:61:12"
             }
           },
           {
-            "id": 23706,
+            "id": 23878,
             "nodeType": "FunctionDefinition",
-            "src": "384:87:11",
+            "src": "384:87:12",
+            "nodes": [],
             "documentation": {
-              "id": 23697,
+              "id": 23869,
               "nodeType": "StructuredDocumentation",
-              "src": "173:206:11",
+              "src": "173:206:12",
               "text": " Returns the text data associated with an ENS node and key.\n @param node The ENS node to query.\n @param key The text data key to query.\n @return The associated text data."
             },
             "functionSelector": "59d1d43c",
@@ -321,20 +324,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "text",
-            "nameLocation": "393:4:11",
+            "nameLocation": "393:4:12",
             "parameters": {
-              "id": 23702,
+              "id": 23874,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 23699,
+                  "id": 23871,
                   "mutability": "mutable",
                   "name": "node",
-                  "nameLocation": "406:4:11",
+                  "nameLocation": "406:4:12",
                   "nodeType": "VariableDeclaration",
-                  "scope": 23706,
-                  "src": "398:12:11",
+                  "scope": 23878,
+                  "src": "398:12:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -342,10 +345,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 23698,
+                    "id": 23870,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "398:7:11",
+                    "src": "398:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -355,13 +358,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 23701,
+                  "id": 23873,
                   "mutability": "mutable",
                   "name": "key",
-                  "nameLocation": "428:3:11",
+                  "nameLocation": "428:3:12",
                   "nodeType": "VariableDeclaration",
-                  "scope": 23706,
-                  "src": "412:19:11",
+                  "scope": 23878,
+                  "src": "412:19:12",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -369,10 +372,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 23700,
+                    "id": 23872,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "412:6:11",
+                    "src": "412:6:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -381,21 +384,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "397:35:11"
+              "src": "397:35:12"
             },
             "returnParameters": {
-              "id": 23705,
+              "id": 23877,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 23704,
+                  "id": 23876,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 23706,
-                  "src": "456:13:11",
+                  "scope": 23878,
+                  "src": "456:13:12",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -403,10 +406,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 23703,
+                    "id": 23875,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "456:6:11",
+                    "src": "456:6:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -415,9 +418,9 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "455:15:11"
+              "src": "455:15:12"
             },
-            "scope": 23707,
+            "scope": 23879,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -430,15 +433,15 @@
         "contractKind": "interface",
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          23707
+          23879
         ],
         "name": "ITextResolver",
-        "nameLocation": "68:13:11",
-        "scope": 23708,
+        "nameLocation": "68:13:12",
+        "scope": 23880,
         "usedErrors": []
       }
     ],
     "license": "MIT"
   },
-  "id": 11
+  "id": 12
 }
