@@ -26,10 +26,12 @@
   ],
   "receipts": [],
   "libraries": [],
-  "pending": [],
+  "pending": [
+    "0x8cf04b2d3cacf9d248a5e1796752b98f2f3e01f143f2b12a4b760507ba5b5ee9"
+  ],
   "path": "/home/ubuntu/juice-project-handles/broadcast/Deploy.sol/1/run-latest.json",
   "returns": {},
-  "timestamp": 1670983154,
+  "timestamp": 1670983153,
   "chain": 1,
   "multi": false,
   "commit": "d459bd2"

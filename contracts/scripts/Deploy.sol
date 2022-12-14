@@ -24,9 +24,9 @@ contract DeployGoerli is Test {
 }
 
 contract DeployMainnet is Test {
-  IJBOperatorStore _operatorStore = IJBOperatorStore(0x6F3C5afCa0c9eDf3926eF2dDF17c8ae6391afEfb);
-  IJBProjects _projects = IJBProjects(0xD8B4359143eda5B2d763E127Ed27c77addBc47d3);
-  IJBProjectHandles _oldHandle = IJBProjectHandles(0xE3c01E9Fd2a1dCC6edF0b1058B5757138EF9FfB6);
+  IJBOperatorStore _operatorStore = IJBOperatorStore(0xDA42A208e866af321bb2BD7cB0e5504555504b87);
+  IJBProjects _projects = IJBProjects(0xb220b87e7b587351d43Df4d906726d98D1fa52fB);
+  IJBProjectHandles _oldHandle = IJBProjectHandles(address(0));
 
   JBProjectHandles jbProjectHandles;
 
